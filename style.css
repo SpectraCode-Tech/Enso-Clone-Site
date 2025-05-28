@@ -1,0 +1,194 @@
+body{
+    background-color: white;
+    align-items: center;
+
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    color: rgba(255, 255, 255, 0.829);
+    background-color: rgb(34, 32, 32);
+}
+
+.navtitle{
+    margin: none;
+    font-size: 11px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.highlight{
+    font-weight: bold;
+    color: white;
+}
+.market{
+font-weight: 100;
+}
+
+nav button{
+    box-shadow: 0 2px 1px rgba(102, 255, 0, 0.548);
+    align-self: center;
+    height: 50%;
+    color: white;
+    background-color: rgba(104, 255, 4, 0.603);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.home{
+    align-items: center;
+    margin: 80px;
+
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section0{
+ 
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}    
+
+.ring{
+    border: solid 25px black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.ring2{
+    border: solid 30px white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#navigations{
+    margin-left: 60px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.largeimg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.imgtitles{
+    width: 96%;
+    font-weight: bold;
+}
+.largeimg img{
+    width: 96%;
+    cursor: pointer;
+}
+
+.section2{
+    margin-left: 5px;
+    display: flex;
+    gap: 59px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 98%;
+}
+.tray{ 
+    max-width: 490px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.section4{
+    margin-left: 5px;
+    display: flex;
+    gap: 59px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 98%;
+}
+
+.section4 img{
+    max-width: 548px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Viewbtn{
+    margin-top: 60px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid rgb(92, 88, 88) 1px;
+    padding: 40px 130px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#footer{
+    margin-top: 60px;
+    border: solid rgb(43, 43, 43) 1px;
+    padding: 10px 15px;
+}
+.infobox{
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+#segment{
+ 
+    font-size: 12px;
+    width: 180px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+#segment a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+}
+
+#icons img{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+#credit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.highlight2{
+    font-weight: bold;
+}
