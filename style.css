@@ -223,73 +223,65 @@ nav button {
 
 @media (max-width: 900px) {
     nav {
-        flex-direction: row;
-        align-items: center;
-        padding: 0 0;
-        height: 60px;
-        max-width: 100vw;
+        font-size: 1em;
+        height: 54px;
     }
     .navtitle {
-        margin-left: 10px;
+        font-size: 1em;
+        margin-left: 8px;
         margin-right: 0;
     }
     nav button {
-        margin-left: auto;
+        font-size: 0.95em;
         margin-right: 10px;
     }
-    .largeimg img, .section4 img, .tray {
-        max-width: 300px;
+    .largeimg img, .section4 img, .tray img {
+        max-width: 240px;
     }
     .imgtitles {
-        max-width: 300px;
+        max-width: 240px;
+        font-size: 0.95em;
     }
 }
 
 @media (max-width: 600px) {
     nav {
-        font-size: 14px;
-        flex-direction: row;
-        height: 50px;
-        max-width: 100vw;
+        font-size: 0.95em;
+        height: 44px;
     }
     .navtitle {
-        font-size: 13px;
-        margin-left: 5px;
+        font-size: 0.95em;
+        margin-left: 4px;
         margin-right: 0;
     }
     nav button {
-        font-size: 13px;
-        margin-left: auto;
+        font-size: 0.9em;
         margin-right: 5px;
+        padding: 6px 12px;
     }
-    body {
-        padding-top: 50px;
-    }
-    .largeimg img, .section4 img, .tray {
+    .largeimg img, .section4 img, .tray img {
         max-width: 90vw;
     }
     .imgtitles {
         max-width: 90vw;
+        font-size: 0.9em;
     }
 }
 
 @media (max-width: 400px) {
     nav {
-        font-size: 12px;
-        height: 40px;
-        max-width: 100vw;
+        font-size: 0.85em;
+        height: 36px;
     }
     .Viewbtn {
-        font-size: 12px;
-        padding: 8px 5px;
+        font-size: 0.85em;
+        padding: 6px 2px;
     }
-    body {
-        padding-top: 40px;
-    }
-    .largeimg img, .section4 img, .tray {
+    .largeimg img, .section4 img, .tray img {
         max-width: 98vw;
     }
     .imgtitles {
         max-width: 98vw;
+        font-size: 0.85em;
     }
 }
