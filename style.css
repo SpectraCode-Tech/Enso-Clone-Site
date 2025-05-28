@@ -227,6 +227,7 @@ nav button {
         align-items: center;
         padding: 0 0;
         height: 60px;
+        max-width: 100vw;
     }
     .navtitle {
         margin-left: 10px;
@@ -236,6 +237,12 @@ nav button {
         margin-left: auto;
         margin-right: 10px;
     }
+    .largeimg img, .section4 img, .tray {
+        max-width: 300px;
+    }
+    .imgtitles {
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -243,6 +250,7 @@ nav button {
         font-size: 14px;
         flex-direction: row;
         height: 50px;
+        max-width: 100vw;
     }
     .navtitle {
         font-size: 13px;
@@ -257,12 +265,19 @@ nav button {
     body {
         padding-top: 50px;
     }
+    .largeimg img, .section4 img, .tray {
+        max-width: 90vw;
+    }
+    .imgtitles {
+        max-width: 90vw;
+    }
 }
 
 @media (max-width: 400px) {
     nav {
         font-size: 12px;
         height: 40px;
+        max-width: 100vw;
     }
     .Viewbtn {
         font-size: 12px;
@@ -271,5 +286,10 @@ nav button {
     body {
         padding-top: 40px;
     }
+    .largeimg img, .section4 img, .tray {
+        max-width: 98vw;
+    }
+    .imgtitles {
+        max-width: 98vw;
+    }
 }
-
