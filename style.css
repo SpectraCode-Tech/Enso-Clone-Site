@@ -5,6 +5,7 @@ body{
 
 }
 nav{
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,8 +33,10 @@ font-weight: 100;
 }
 
 nav button{
+    margin-left: auto;
     box-shadow: 0 2px 1px rgba(102, 255, 0, 0.548);
     align-self: center;
+    align-items: center;
     height: 50%;
     color: white;
     background-color: rgba(104, 255, 4, 0.603);
@@ -194,83 +197,79 @@ h4{
 }
 
 
-/* ...existing code... */
+/* Ensure nav button stays right and nav doesn't overlap content */
+body {
+    padding-top: 60px; /* Adjust based on nav height */
+}
 
-/* Responsive styles */
-@media (max-width: 1200px) {
-    .section2, .section4 {
-        gap: 30px;
-    }
-    .tray, .section4 img {
-        max-width: 350px;
-        height: 250px;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+    padding: 0 0;
+}
+
+nav button {
+    margin-left: auto;
+    margin-right: 30px;
+    align-self: center;
 }
 
 @media (max-width: 900px) {
     nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 0;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 0;
+        height: 60px;
     }
-    .navtitle, nav button {
+    .navtitle {
         margin-left: 10px;
+        margin-right: 0;
+    }
+    nav button {
+        margin-left: auto;
         margin-right: 10px;
-    }
-    .home {
-        margin: 40px 10px 10px 10px;
-    }
-    .largeimg img, .imgtitles, .infobox {
-        width: 100%;
-    }
-    .Viewbtn {
-        padding: 20px 40px;
-        font-size: 16px;
     }
 }
 
 @media (max-width: 600px) {
     nav {
         font-size: 14px;
+        flex-direction: row;
+        height: 50px;
     }
-    .navtitle, nav button {
+    .navtitle {
         font-size: 13px;
         margin-left: 5px;
+        margin-right: 0;
+    }
+    nav button {
+        font-size: 13px;
+        margin-left: auto;
         margin-right: 5px;
     }
-    .section2, .section4 {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-    .tray, .section4 img {
-        max-width: 98vw;
-        height: auto;
-    }
-    .home {
-        margin: 20px 5px 5px 5px;
-    }
-    .Viewbtn {
-        padding: 10px 10px;
-        font-size: 14px;
-        width: 100%;
-    }
-    .infobox {
-        grid-template-columns: 1fr;
-        padding: 15px 5px;
-    }
-    #credit {
-        flex-direction: column;
-        gap: 10px;
+    body {
+        padding-top: 50px;
     }
 }
 
 @media (max-width: 400px) {
     nav {
         font-size: 12px;
+        height: 40px;
     }
     .Viewbtn {
         font-size: 12px;
         padding: 8px 5px;
     }
+    body {
+        padding-top: 40px;
+    }
 }
+
